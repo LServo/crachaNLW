@@ -1,9 +1,15 @@
+let userTwitter = prompt('Qual seu user do Twitter?'),
+  userInstagram = prompt('Qual seu user do Instagram?'),
+  userFacebook = prompt('Qual seu user do Facebook?'),
+  userGithub = prompt('Qual seu user do Github?'),
+  userYoutube = prompt('Qual seu user do Youtube?')
+
 const userNames = {
-  github: 'maykbrito',
-  twitter: 'lservo',
-  youtube: 'lservo',
-  facebook: 'lservo',
-  instagram: 'lservo'
+  github: userGithub,
+  twitter: userTwitter,
+  youtube: userYoutube,
+  facebook: userFacebook,
+  instagram: userInstagram
 }
 
 function changeSocialMedia() {
